@@ -1,0 +1,84 @@
+.html * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: grey ;
+  font-family: 'Roboto', sans-serif;
+  
+}
+.left {
+  background-color:  	#FDFDFD;
+  color: blue;
+ left: 400px;
+ top: 120px;
+
+}
+
+.right {
+  background-color: 	#FCEAA8;
+  color:	#D09861;
+  margin-top: 70px;
+  left: 600px;
+  box-shadow: -6px 5px 50px 17px rgba(0,0,0,0.36);
+}
+
+.left,
+.right {
+  padding: 20px;
+  position: absolute;
+  width: 250px;
+  height: 450px;
+}
+span {
+  font-weight: lighter;
+  font-size: 13px;
+  opacity: 0.8;
+}
+.content {
+padding-top: 210px;
+}
+hr {
+  border-color: blue ;
+  border-width: 1px;
+  opacity: 0.5;
+}
+.right hr{
+  border-color: #D09861;
+  
+}
+.half-c {
+  height:5px;
+  width:10px;
+  border-radius: 90px 90px 0 0;
+  background:#D09861;
+ margin-bottom: -8px;
+}
+.left .half-c {
+  height:5px;
+  width:10px;
+  border-radius: 90px 90px 0 0;
+  background: blue;
+ margin-bottom: -8px;
+}
+.number,
+.number-18 {
+font-size: 12px;
+}
+.number-18 {
+  position: absolute;
+  right: 20px;
+}
+.note {
+  font-size: 25px;
+}
+footer {
+  position: absolute;
+  bottom: 20px;
+}
+
+
+
+
+
